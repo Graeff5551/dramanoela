@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand-primary: #78C2C4; /* Aqua/Teal */
+  --color-brand-secondary: #F4A7B9; /* Soft Pink */
+  --color-brand-accent: #E0F7FA; /* Light Aqua */
+  --color-brand-nude: #FDF2F4; /* Very Light Pink/Nude */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
